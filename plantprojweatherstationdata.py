@@ -51,7 +51,5 @@ def main(path, api_key):
 
     df.to_csv("exceptional_plants_LatLon_WeatherStation.csv")
 
-main("./exceptional_plants_lat_lon_March1.csv", "e0c33bc4248a93ebd02e972c0a29bc7f")
 
-#weather_station_df = pd.DataFrame(weather_station_storage, columns=["Temp", "Description", "Humidity", "Wind Speed"])
 
